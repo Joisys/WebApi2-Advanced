@@ -1,0 +1,4 @@
+C:\GitHub\WebApi2-Advanced\Jo2let-Service\bin\Debug\Jo2let.Service.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Service\bin\Debug\Jo2let.Service.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let-Service\obj\Debug\Jo2let.Service.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Service\obj\Debug\Jo2let.Service.pdb

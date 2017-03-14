@@ -1,0 +1,7 @@
+C:\GitHub\WebApi2-Advanced\Jo2let-Data\bin\Debug\Jo2let.Data.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Data\bin\Debug\Jo2let.Data.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let-Data\bin\Debug\Jo2let.Model.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Data\bin\Debug\Jo2let.Model.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let-Data\obj\Debug\Jo2let.Data.csprojResolveAssemblyReference.cache
+C:\GitHub\WebApi2-Advanced\Jo2let-Data\obj\Debug\Jo2let.Data.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Data\obj\Debug\Jo2let.Data.pdb

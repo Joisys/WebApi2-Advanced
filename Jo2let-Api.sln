@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Api", "Jo2let-Api\Jo2let.Api.csproj", "{6692B297-F1FA-4503-8EC7-ACB38BF94178}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Data", "Jo2let-Data\Jo2let.Data.csproj", "{D5AC1799-10D5-4793-83A7-5CD5DBD05E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Infrastructure", "Jo2let-Infrastructure\Jo2let.Infrastructure.csproj", "{961D3755-C98D-40A3-8A4A-4567305DD40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Model", "Jo2let-Model\Jo2let.Model.csproj", "{37EFE916-8767-4DEF-8440-7F28E7C93C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Service", "Jo2let-Service\Jo2let.Service.csproj", "{9535FFDF-A153-4B66-A86C-21B43FC275D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Interface", "Jo2let.Interface\Jo2let.Interface.csproj", "{0190D7C4-3991-4971-A9A1-948033AF6489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Context", "Jo2let.Context\Jo2let.Context.csproj", "{4530AF6F-C71B-4746-9F66-84130A06F87F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6692B297-F1FA-4503-8EC7-ACB38BF94178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6692B297-F1FA-4503-8EC7-ACB38BF94178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6692B297-F1FA-4503-8EC7-ACB38BF94178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6692B297-F1FA-4503-8EC7-ACB38BF94178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AC1799-10D5-4793-83A7-5CD5DBD05E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AC1799-10D5-4793-83A7-5CD5DBD05E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AC1799-10D5-4793-83A7-5CD5DBD05E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AC1799-10D5-4793-83A7-5CD5DBD05E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961D3755-C98D-40A3-8A4A-4567305DD40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961D3755-C98D-40A3-8A4A-4567305DD40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961D3755-C98D-40A3-8A4A-4567305DD40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961D3755-C98D-40A3-8A4A-4567305DD40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EFE916-8767-4DEF-8440-7F28E7C93C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EFE916-8767-4DEF-8440-7F28E7C93C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EFE916-8767-4DEF-8440-7F28E7C93C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EFE916-8767-4DEF-8440-7F28E7C93C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9535FFDF-A153-4B66-A86C-21B43FC275D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9535FFDF-A153-4B66-A86C-21B43FC275D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9535FFDF-A153-4B66-A86C-21B43FC275D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9535FFDF-A153-4B66-A86C-21B43FC275D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0190D7C4-3991-4971-A9A1-948033AF6489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0190D7C4-3991-4971-A9A1-948033AF6489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0190D7C4-3991-4971-A9A1-948033AF6489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0190D7C4-3991-4971-A9A1-948033AF6489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4530AF6F-C71B-4746-9F66-84130A06F87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4530AF6F-C71B-4746-9F66-84130A06F87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4530AF6F-C71B-4746-9F66-84130A06F87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4530AF6F-C71B-4746-9F66-84130A06F87F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

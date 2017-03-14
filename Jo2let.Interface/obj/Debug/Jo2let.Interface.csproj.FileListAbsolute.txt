@@ -1,0 +1,4 @@
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Interface.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Interface.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\obj\Debug\Jo2let.Interface.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\obj\Debug\Jo2let.Interface.pdb

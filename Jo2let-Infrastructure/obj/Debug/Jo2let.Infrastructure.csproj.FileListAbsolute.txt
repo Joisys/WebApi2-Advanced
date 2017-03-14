@@ -1,0 +1,4 @@
+C:\GitHub\WebApi2-Advanced\Jo2let-Infrastructure\bin\Debug\Jo2let.Infrastructure.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Infrastructure\bin\Debug\Jo2let.Infrastructure.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let-Infrastructure\obj\Debug\Jo2let.Infrastructure.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Infrastructure\obj\Debug\Jo2let.Infrastructure.pdb

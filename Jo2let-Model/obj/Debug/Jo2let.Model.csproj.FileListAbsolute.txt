@@ -1,0 +1,4 @@
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Jo2let.Model.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Jo2let.Model.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\obj\Debug\Jo2let.Model.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\obj\Debug\Jo2let.Model.pdb
