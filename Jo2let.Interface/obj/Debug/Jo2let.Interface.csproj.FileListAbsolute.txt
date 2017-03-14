@@ -1,4 +1,14 @@
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Interface.dll.config
 C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Interface.dll
 C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Interface.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\EntityFramework.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Data.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Model.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Model.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\Jo2let.Data.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\EntityFramework.xml
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\WebApi2-Advanced\Jo2let.Interface\obj\Debug\Jo2let.Interface.csprojResolveAssemblyReference.cache
 C:\GitHub\WebApi2-Advanced\Jo2let.Interface\obj\Debug\Jo2let.Interface.dll
 C:\GitHub\WebApi2-Advanced\Jo2let.Interface\obj\Debug\Jo2let.Interface.pdb

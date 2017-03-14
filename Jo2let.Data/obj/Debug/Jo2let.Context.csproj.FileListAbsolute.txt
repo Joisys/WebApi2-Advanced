@@ -1,0 +1,12 @@
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\Jo2let.Context.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\Jo2let.Context.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\obj\Debug\Jo2let.Context.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\obj\Debug\Jo2let.Context.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\Jo2let.Context.dll.config
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\EntityFramework.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\Jo2let.Model.dll
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\Jo2let.Model.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\EntityFramework.xml
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\WebApi2-Advanced\Jo2let.Context\obj\Debug\Jo2let.Context.csprojResolveAssemblyReference.cache

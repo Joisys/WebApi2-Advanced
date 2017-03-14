@@ -23,6 +23,5 @@ C:\GitHub\WebApi2-Advanced\Jo2let-Api\bin\Newtonsoft.Json.xml
 C:\GitHub\WebApi2-Advanced\Jo2let-Api\bin\System.Net.Http.Formatting.xml
 C:\GitHub\WebApi2-Advanced\Jo2let-Api\bin\System.Web.Http.xml
 C:\GitHub\WebApi2-Advanced\Jo2let-Api\bin\System.Web.Http.WebHost.xml
-C:\GitHub\WebApi2-Advanced\Jo2let-Api\obj\Debug\Jo2let.Api.csprojResolveAssemblyReference.cache
 C:\GitHub\WebApi2-Advanced\Jo2let-Api\obj\Debug\Jo2let.Api.dll
 C:\GitHub\WebApi2-Advanced\Jo2let-Api\obj\Debug\Jo2let.Api.pdb

@@ -1,4 +1,0 @@
-C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\Jo2let.Context.dll
-C:\GitHub\WebApi2-Advanced\Jo2let.Context\bin\Debug\Jo2let.Context.pdb
-C:\GitHub\WebApi2-Advanced\Jo2let.Context\obj\Debug\Jo2let.Context.dll
-C:\GitHub\WebApi2-Advanced\Jo2let.Context\obj\Debug\Jo2let.Context.pdb
