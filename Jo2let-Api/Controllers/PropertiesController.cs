@@ -21,20 +21,7 @@ namespace Jo2let.Api.Controllers
         {
             var propertyList = _propertyService.GetAllPropertys();
             var propertyViewModels = new List<PropertyViewModel>();
-            foreach (var property in propertyList)
-            {
-                propertyViewModels.Add(new PropertyViewModel
-                {
-                    Id = property.Id,
-                    Title = property.Title,
-                    Description = property.Description,
-                    Location = new LocationViewModel
-                    {
-                        Id = property.Location.Id,
-                        Name = property.Location.Name
-                    }
-                });
-            }
+            AutoMapper.Mapper.Map(propertyList, propertyViewModels);
             return Ok(propertyViewModels);
 
         }
@@ -43,18 +30,8 @@ namespace Jo2let.Api.Controllers
         public IHttpActionResult Get(int id)
         {
             var property = _propertyService.GetPropertyById(id);
-            var propertyViewModel = new PropertyViewModel
-            {
-                Id = property.Id,
-                Title = property.Title,
-                Description = property.Description,
-                Location = new LocationViewModel
-                {
-                    Id = property.Location.Id,
-                    Name = property.Location.Name
-                }
-            };
-
+            var propertyViewModel = new PropertyViewModel();
+            AutoMapper.Mapper.Map(property, propertyViewModel);
             return Ok(propertyViewModel);
         }
 
@@ -64,30 +41,17 @@ namespace Jo2let.Api.Controllers
                 return BadRequest(ModelState);
 
 
-            var propertyData = new Property
-            {
-                Title = createModel.Title,
-                Description = createModel.Description,
-                LocationId = createModel.LocationId
-            };
-
+            var propertyData = new Property();
+            AutoMapper.Mapper.Map(createModel, propertyData);
             _propertyService.AddProperty(propertyData);
 
-            var property = new PropertyViewModel
-            {
-                Id = propertyData.Id,
-                Title = propertyData.Title,
-                Description = propertyData.Description,
-                Location = new LocationViewModel
-                {
-                    Id = propertyData.Location.Id,
-                    Name = propertyData.Location.Name
-                }
 
-            };
+            var propertyViewModel = new PropertyViewModel();
+            AutoMapper.Mapper.Map(propertyData, propertyViewModel);
+
             return Created(
-                new Uri(Request.RequestUri + "api/properties" + property.Id),
-                property);
+                new Uri(Request.RequestUri + "api/properties" + propertyViewModel.Id),
+                propertyViewModel);
         }
 
 
@@ -102,11 +66,7 @@ namespace Jo2let.Api.Controllers
             if (propertyData == null)
                 return NotFound();
 
-            propertyData.Id = editModel.Id;
-            propertyData.Title = editModel.Title;
-            propertyData.Description = editModel.Description;
-            propertyData.LocationId = editModel.LocationId;
-
+            AutoMapper.Mapper.Map(editModel, propertyData);
             _propertyService.UpdateProperty(propertyData);
 
             return StatusCode(HttpStatusCode.NoContent);

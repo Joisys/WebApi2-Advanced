@@ -21,25 +21,15 @@ namespace Jo2let.Api.Controllers
         {
             var locationList = _locationService.GetLocations();
             var locationViewModels = new List<LocationViewModel>();
-            foreach (var location in locationList)
-            {
-                locationViewModels.Add(new LocationViewModel
-                {
-                    Id = location.Id,
-                    Name = location.Name
-                });
-            }
+            AutoMapper.Mapper.Map(locationList, locationViewModels);
             return Ok(locationViewModels);
         }
 
         public IHttpActionResult Get(int id)
         {
             var location = _locationService.GetLocationById(id);
-            var locationViewModel = new LocationViewModel
-            {
-                Id = location.Id,
-                Name = location.Name
-            };
+            var locationViewModel = new LocationViewModel();
+            AutoMapper.Mapper.Map(location, locationViewModel);
             return Ok(locationViewModel);
         }
 
@@ -48,19 +38,14 @@ namespace Jo2let.Api.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var locationData = new Location
-            {
-                Name = createModel.CreateName
-            };
-
+            var locationData = new Location();
+            AutoMapper.Mapper.Map(createModel, locationData);
             _locationService.AddLocation(locationData);
 
-            var location = new LocationViewModel
-            {
-                Id = locationData.Id,
-                Name = locationData.Name
-            };
-            return Created(new Uri(Request.RequestUri + "api/loctions" + location.Id), location);
+            var locationViewModel = new LocationViewModel();
+            AutoMapper.Mapper.Map(locationData, locationViewModel);
+
+            return Created(new Uri(Request.RequestUri + "api/loctions" + locationViewModel.Id), locationViewModel);
 
         }
 
@@ -73,9 +58,7 @@ namespace Jo2let.Api.Controllers
             if (locationData == null)
                 return NotFound();
 
-            locationData.Id = editModel.Id;
-            locationData.Name = editModel.EditName;
-
+            AutoMapper.Mapper.Map(editModel, locationData);
             _locationService.UpdateLoaction(locationData);
 
             return StatusCode(HttpStatusCode.NoContent);
