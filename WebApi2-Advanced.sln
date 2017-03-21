@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Interface", "Jo2let.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Data", "Jo2let.Data\Jo2let.Data.csproj", "{4530AF6F-C71B-4746-9F66-84130A06F87F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B31F8E80-CB12-46B1-8DEE-934DD82224C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Data.Test.Integartion", "Jo2let.Data.Test.Integartion\Jo2let.Data.Test.Integartion.csproj", "{BB500C9D-AD30-4E45-9E52-FB0B9857822A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Service.Test.Unit", "Jo2let.Service.Test.Unit\Jo2let.Service.Test.Unit.csproj", "{1E7D1A25-82FC-41B1-A60F-CA97ECE6510C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jo2let.Api.Test.Acceptance", "Jo2let.Api.Test.Acceptance\Jo2let.Api.Test.Acceptance.csproj", "{241A7F11-41B5-4454-82E5-F3F33DEF6F2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,8 +53,25 @@ Global
 		{4530AF6F-C71B-4746-9F66-84130A06F87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4530AF6F-C71B-4746-9F66-84130A06F87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4530AF6F-C71B-4746-9F66-84130A06F87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB500C9D-AD30-4E45-9E52-FB0B9857822A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB500C9D-AD30-4E45-9E52-FB0B9857822A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB500C9D-AD30-4E45-9E52-FB0B9857822A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB500C9D-AD30-4E45-9E52-FB0B9857822A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7D1A25-82FC-41B1-A60F-CA97ECE6510C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7D1A25-82FC-41B1-A60F-CA97ECE6510C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7D1A25-82FC-41B1-A60F-CA97ECE6510C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7D1A25-82FC-41B1-A60F-CA97ECE6510C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241A7F11-41B5-4454-82E5-F3F33DEF6F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241A7F11-41B5-4454-82E5-F3F33DEF6F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241A7F11-41B5-4454-82E5-F3F33DEF6F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241A7F11-41B5-4454-82E5-F3F33DEF6F2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB500C9D-AD30-4E45-9E52-FB0B9857822A} = {B31F8E80-CB12-46B1-8DEE-934DD82224C0}
+		{1E7D1A25-82FC-41B1-A60F-CA97ECE6510C} = {B31F8E80-CB12-46B1-8DEE-934DD82224C0}
+		{241A7F11-41B5-4454-82E5-F3F33DEF6F2D} = {B31F8E80-CB12-46B1-8DEE-934DD82224C0}
 	EndGlobalSection
 EndGlobal

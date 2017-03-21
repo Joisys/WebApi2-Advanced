@@ -28,6 +28,8 @@ namespace Jo2let.Api.Controllers
         public IHttpActionResult Get(int id)
         {
             var location = _locationService.GetLocationById(id);
+            if (location == null)
+                return NotFound();
             var locationViewModel = new LocationViewModel();
             AutoMapper.Mapper.Map(location, locationViewModel);
             return Ok(locationViewModel);

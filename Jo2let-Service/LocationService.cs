@@ -8,13 +8,11 @@ namespace Jo2let.Service
     public class LocationService : ILocationService
     {
         private readonly ILocationRepository _repository;
-        private readonly IPropertyRepository _propertyRepository;
         private readonly IUnitOfWork _unitOfWork;
 
-        public LocationService(ILocationRepository repository, IPropertyRepository propertyRepository, IUnitOfWork unitOfWork)
+        public LocationService(ILocationRepository repository, IUnitOfWork unitOfWork)
         {
             _repository = repository;
-            _propertyRepository = propertyRepository;
             _unitOfWork = unitOfWork;
         }
 
@@ -45,11 +43,11 @@ namespace Jo2let.Service
         public void DeleteLocation(int id)
         {
             var location = _repository.GetById(id);
-            var resources = _propertyRepository.GetMany(r => r.LocationId == id);
+            var resources = _repository.GetMany(r => r.Id == id);
 
             foreach (var item in resources)
             {
-                _propertyRepository.Delete(item);
+                _repository.Delete(item);
             }
             _repository.Delete(location);
             SaveChanges();
