@@ -1,4 +1,13 @@
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Jo2let.Model.dll.config
 C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Jo2let.Model.dll
 C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Jo2let.Model.pdb
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\EntityFramework.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\EntityFramework.xml
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\GitHub\WebApi2-Advanced\Jo2let-Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\GitHub\WebApi2-Advanced\Jo2let-Model\obj\Debug\Jo2let.Model.dll
 C:\GitHub\WebApi2-Advanced\Jo2let-Model\obj\Debug\Jo2let.Model.pdb

@@ -6,15 +6,19 @@ using Jo2let.Api.Models.Location;
 using Jo2let.Api.Models.Property;
 using Jo2let.Model;
 using Jo2let.Service;
+using Microsoft.AspNet.Identity;
 
 namespace Jo2let.Api.Controllers
 {
     public class PropertiesController : ApiController
     {
         private readonly IPropertyService _propertyService;
-        public PropertiesController(IPropertyService propertyService)
+        private readonly UserManager<ApplicationUser> _userManager;
+
+        public PropertiesController(IPropertyService propertyService, UserManager<ApplicationUser> userManager)
         {
             _propertyService = propertyService;
+            _userManager = userManager;
         }
 
         public IHttpActionResult Get()

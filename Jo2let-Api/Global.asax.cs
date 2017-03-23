@@ -4,11 +4,11 @@ namespace Jo2let.Api
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
+        //TODO: could remove this file as becase the OWIN Startup class
         protected void Application_Start()
         {
-            UnityConfig.RegisterComponents();
             GlobalConfiguration.Configure(WebApiConfig.Register);
-
+            UnityConfig.RegisterComponents();
         }
     }
 }

@@ -1,10 +1,11 @@
 ﻿using System.Data.Entity;
 using Jo2let.Data.Configurations;
 using Jo2let.Model;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Jo2let.Data
 {
-    public class PropertyDbContext : DbContext
+    public class PropertyDbContext : IdentityDbContext<ApplicationUser>
     {
         public PropertyDbContext() : base("Jo2letDbContext")
         {
@@ -18,6 +19,10 @@ namespace Jo2let.Data
         {
             modelBuilder.Configurations.Add(new LocationConfiguration());
             modelBuilder.Configurations.Add(new PropertyConfiguration());
+
+            //Configurations Auto generated tables for IdentityDbContext.
+            modelBuilder.Configurations.Add(new IdentityUserRoleConfiguration());
+            modelBuilder.Configurations.Add(new IdentityUserLoginConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

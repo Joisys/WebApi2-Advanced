@@ -5,16 +5,19 @@ using System.Web.Http;
 using Jo2let.Api.Models.Location;
 using Jo2let.Model;
 using Jo2let.Service;
+using Microsoft.AspNet.Identity;
 
 namespace Jo2let.Api.Controllers
 {
     public class LocationsController : ApiController
     {
         private readonly ILocationService _locationService;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public LocationsController(ILocationService locationService)
+        public LocationsController(ILocationService locationService, UserManager<ApplicationUser> userManager)
         {
             _locationService = locationService;
+            _userManager = userManager;
         }
 
         public IHttpActionResult Get()

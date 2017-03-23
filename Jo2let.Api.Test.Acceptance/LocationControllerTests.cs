@@ -7,6 +7,7 @@ using Jo2let.Api.Mapper;
 using Jo2let.Api.Models.Location;
 using Jo2let.Model;
 using Jo2let.Service;
+using Microsoft.AspNet.Identity;
 using Moq;
 using NUnit.Framework;
 
@@ -17,9 +18,13 @@ namespace Jo2let.Api.Test.Acceptance
     {
         private readonly Mock<ILocationService> _service;
         private readonly Mock<IMapper> _mockMapper;
+        private readonly UserManager<ApplicationUser> _userManager;
 
         public LocationControllerTests()
         {
+            var userStore = new Mock<IUserStore<ApplicationUser>>();
+            _userManager = new UserManager<ApplicationUser>(userStore.Object);
+
             _service = new Mock<ILocationService>();
             _mockMapper = new Mock<IMapper>();
             AutoMapperConfiguration.Configure();
@@ -42,7 +47,7 @@ namespace Jo2let.Api.Test.Acceptance
                     Name = "Location1"
                 });
 
-            var controller = new LocationsController(_service.Object)
+            var controller = new LocationsController(_service.Object, _userManager)
             {
                 Request = new HttpRequestMessage(),
                 Configuration = new HttpConfiguration()
