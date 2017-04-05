@@ -1,3 +1,4 @@
+using System.Data.Entity;
 using System.Web;
 using Microsoft.Practices.Unity;
 using Jo2let.Data;
@@ -24,6 +25,7 @@ namespace Jo2let.Api
 
             // e.g. container.RegisterType<ITestService, TestService>();
 
+            container.RegisterType<DbContext, PropertyDbContext>(new PerThreadLifetimeManager());
             container.RegisterType<IDatabaseFactory, DatabaseFactory>(new HierarchicalLifetimeManager());
             container.RegisterType<IUnitOfWork, UnitOfWork>(new HierarchicalLifetimeManager());
 
